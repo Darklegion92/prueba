@@ -1,0 +1,19 @@
+<h1>FORMULARIO REGISTRO</h1>
+<form action="/" method="POST" enctype="multipart/form-data">
+    <input id="firstName" name="firstName" placeholder="Nombre" type="text" required="true"/><br />
+    <input id="lastName" name="lastName" placeholder="Apellido" type="text" required="true"/><br />
+    <select id="identificationType" name="identificationType">
+        <option value="C.C.">Cédula de ciudadanía</option>
+        <option value="T.I.">Targeta de identidad</option>
+        <option value="R.C.">Registro civil</option>
+        <option value="C.E.">Cédula de extrangería</option>
+        <option value="NIT">Número de identificacion tributaria</option>
+        <option value="PAS">Pasaporte</option>
+    </select><br />
+    <input id="identification" name="identification" placeholder="Documento" type="number" required="true"/><br />
+    <input id="email" name="email" placeholder="Correo Eléctronico" type="email" required="true"/><br />
+    <input id="phone" name="phone" placeholder="Teléfono" type="number" required="true"/><br />
+    <input id="birthDate" name="birthdate" placeholder="Fecha de Nacimiento" type="date" required="true"/><br />
+    <input type="file" name="file" id="file" max-size="5120" required="true"/><br />
+    <input type="submit" value="Enviar" />
+</form>
